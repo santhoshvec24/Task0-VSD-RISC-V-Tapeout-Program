@@ -3,7 +3,9 @@
 
    All the instructions for installation of required tools can be found here:</ins>
 
-### System Requirements
+### System Information
+
+
 
 
 
@@ -66,4 +68,3 @@ $ sudo apt install gtkwave
 ```
 
 <img width="1209" height="543" alt="Screenshot from 2025-09-19 22-13-28" src="https://github.com/user-attachments/assets/eba7b2dd-7741-4cf4-838b-835c5d6d6e37" />
-
