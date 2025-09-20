@@ -33,6 +33,12 @@ yosys
 <img width="774" height="469" alt="Screenshot from 2025-09-19 22-05-57" src="https://github.com/user-attachments/assets/291c313a-02f2-4f0d-9648-bcc72a85e078" />
 
 #### <ins>Iverilog</ins>
+
+Iverilog comes bundled with the OSS-CAD Suite, but the problem is, it comes with the latest version 13 which isn't regarded as a stable version in Iverilog's documentation
+Thus, we have to manually revert back to a stable version.
+This is done by deleting all iverilog files that came bundled with OSS-CAD Suite (using the search function might be helpful)
+
+### INSTALLATION:
 ```bash
 sudo apt-get update
 sudo apt-get install iverilog
@@ -44,6 +50,12 @@ iverilog -v
 <img width="775" height="559" alt="Screenshot from 2025-09-19 22-08-11" src="https://github.com/user-attachments/assets/4d113347-d701-4fcc-bc56-4e9fb0a5cf26" />
 
 #### <ins>gtkwave</ins>
+
+GTKWave too comes bundled with OSS-CAD Suite, but this time with the version 3.4.0 which is stable.
+But just to be on the safer side it is recommended to delete the GTKWave files inside the OSS-CAD Suite folder
+
+### INSTALLATION:
+
 ```bash
 $ sudo apt-get update
 $ sudo apt install gtkwave
