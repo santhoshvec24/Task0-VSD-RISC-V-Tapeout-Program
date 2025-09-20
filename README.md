@@ -1,4 +1,7 @@
-# RISC-V Reference SoC Tapeout Program VSD
+# Week 0 VSD RISC-V Tapeout Program
+This document describes the setup and verification of the required tools for the VSD RISC-V Tapeout program,
+keeping it Professional Informative Simple and Sweet (please don't make an acronym out of this!)
+
 ## Tools Installation
 
    All the instructions for installation of required tools can be found here:</ins>
