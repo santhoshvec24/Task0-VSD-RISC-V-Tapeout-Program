@@ -5,9 +5,7 @@
 
 ### System Information
 
-
-
-
+<img width="848" height="461" alt="Screenshot from 2025-09-20 23-16-21" src="https://github.com/user-attachments/assets/5259e069-cb5b-40f1-9a2f-002ea650f480" />
 
 ### TOOLS INSTALLATION
 
