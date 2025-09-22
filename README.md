@@ -72,6 +72,7 @@ sudo apt-get install libcanberra-gtk-module
 
 ### TOOLS
 |Tools|Version|
+|-----|-------|
 |yosys|9.0|
 |iverilog|11.0|
 |GTKWave|3.3.104|
