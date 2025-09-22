@@ -1,6 +1,5 @@
 # Week 0 VSD RISC-V Tapeout Program
-This document describes the setup and verification of the required tools for the VSD RISC-V Tapeout program,
-keeping it Professional Informative Simple and Sweet (please don't make an acronym out of this!)
+This document describes the setup and verification of the required tools for the VSD RISC-V Tapeout program.
 
 ## Tools Installation
 
