@@ -13,26 +13,31 @@ This document describes the setup and verification of the required tools for the
 
 
 #### <ins>Yosys Installation</ins>
+
+Download the `oss-cad-suite-linux-x64-20250916.tgz` file from releases page of [OSS-CAD-Suite](https://github.com/YosysHQ/oss-cad-suite-build) repository
+
 ```bash
-sudo apt-get update
-git clone https://github.com/YosysHQ/yosys.git
-cd yosys
-sudo apt install make
-sudo apt-get install build-essential clang bison flex \
-    libreadline-dev gawk tcl-dev libffi-dev git \
-    graphviz xdot pkg-config python3 libboost-system-dev \
-    libboost-python-dev libboost-filesystem-dev zlib1g-dev
-make config-gcc
-git submodule update --init --recursive
-make
-sudo apt install yosys
+cd ~/Downloads 
+# The place the tgz file is downloaded
+tar -xvzf oss-cad-suite-linux-x64-20250916.tgz -C ~/
+gedit ~/.bashrc
 ```
-### TOOL CHECK:
+```bash
+export PATH="$HOME/oss-cad-suite/bin:$PATH" 
+# At the end of the file that opened
 ```
-yosys
+then,
+```bash
+source ~/.bashrc
 ```
 
-<img width="774" height="469" alt="Screenshot from 2025-09-19 22-05-57" src="https://github.com/user-attachments/assets/291c313a-02f2-4f0d-9648-bcc72a85e078" />
+### TOOL CHECK:
+```bash
+yosys
+license
+```
+<img width="748" height="595" alt="Screenshot from 2025-09-22 17-40-35" src="https://github.com/user-attachments/assets/563806ae-e09d-48de-abe2-4ffdd658e1e7" />
+
 
 #### <ins>Iverilog</ins>
 
