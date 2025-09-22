@@ -76,3 +76,8 @@ sudo apt-get install libcanberra-gtk-module
 |yosys|9.0|
 |iverilog|11.0|
 |GTKWave|3.3.104|
+
+## About
+Week 0 of the RISV-V Reference SoC Tapeout Program.
+
+For further guidance, refer to [VLSI System Design Labs.](https://www.vlsisystemdesign.com/soc-labs/)
