@@ -59,8 +59,9 @@ But just to be on the safer side it is recommended to delete the GTKWave files i
 ### INSTALLATION:
 
 ```bash
-$ sudo apt-get update
-$ sudo apt install gtkwave
+sudo apt-get update
+sudo apt install gtkwave
+sudo apt-get install libcanberra-gtk-module
 ```
 ### TOOL CHECK:
 ```
